@@ -1,0 +1,6 @@
+function writeSecretSentence(string $argument1, string $argument2) : string
+{
+   return "$argument1 s'incline face à $argument2" ;
+}
+
+echo writeSecretSentence ("falilou", "jeremy");
